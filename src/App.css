@@ -55,6 +55,10 @@ button:hover {
 
 .home {
   min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .login_title {
@@ -293,9 +297,10 @@ button:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
+  max-width: 1117px;
 }
 
 
